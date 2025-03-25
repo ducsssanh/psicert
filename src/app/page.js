@@ -1,5 +1,5 @@
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -271,8 +271,8 @@ export default function Home() {
               <div className="w-3/5 h-full flex items-center justify-center px-8 text-center">
                 <div>
                   <p className="text-xl font-bold text-gray-800 mb-2">
-                    "Cùng chung tay vì sự an toàn & phát triển chính là sứ mệnh
-                    của chúng tôi!"
+                    &quot;Cùng chung tay vì sự an toàn & phát triển chính là sứ
+                    mệnh của chúng tôi!&quot;
                   </p>
                 </div>
               </div>

@@ -43,7 +43,7 @@ export default function Home() {
                 clients.
               </h1>
               <p className="text-gray-600 text-base mb-4">
-                PSI's Electrical-Electronics Testing Laboratory is fully
+                PSI&apos;s Electrical-Electronics Testing Laboratory is fully
                 equipped with modern facilities, implementing a laboratory
                 management system in compliance with ISO/IEC 17025:2017
                 standards. It is operated by top experts who have undergone
@@ -69,7 +69,7 @@ export default function Home() {
                   ABOUT US
                 </h1>
                 <p className="text-gray-600 text-base mb-4">
-                  PSI's Electrical-Electronics Testing Laboratory is fully
+                  PSI&apos;s Electrical-Electronics Testing Laboratory is fully
                   equipped with modern facilities, implementing a laboratory
                   management system that meets the standards of ISO/IEC
                   17025:2017. It is operated by leading experts who have
@@ -110,7 +110,7 @@ export default function Home() {
                   DEVELOPMENT HISTORY
                 </h1>
                 <p className="text-gray-600 text-base mb-4">
-                  PSI's Electrical-Electronics Testing Laboratory is fully
+                  PSI&apos;s Electrical-Electronics Testing Laboratory is fully
                   equipped with modern facilities, implementing a laboratory
                   management system that adheres to the standards of ISO/IEC
                   17025:2017. The lab is operated by leading experts who have
@@ -274,7 +274,7 @@ export default function Home() {
               <div className="w-3/5 h-full flex items-center justify-center px-8 text-center">
                 <div>
                   <p className="text-xl font-bold text-gray-800 mb-2">
-                    "Joining hands for safety and development is our mission!"
+                  &quot;Joining hands for safety and development is our mission!&quot;
                   </p>
                 </div>
               </div>

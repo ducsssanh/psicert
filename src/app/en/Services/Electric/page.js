@@ -61,7 +61,7 @@ export default function Electric() {
                 </div>
               </div>
               <p className="mt-4">
-                Additionally, PSI's laboratory has been accredited for
+                Additionally, PSI&apos;s laboratory has been accredited for
                 conformity with the ISO 17025 standard by VACI. This
                 accreditation is globally recognized under the ILAC-MRA
                 framework.

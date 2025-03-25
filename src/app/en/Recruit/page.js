@@ -37,7 +37,7 @@ export default function Recruit() {
             {/* Additional Content */}
             <div className="text-base leading-relaxed">
               <p>
-                PSI's Electrical-Electronics Testing Laboratory is fully
+                PSI&apos;s Electrical-Electronics Testing Laboratory is fully
                 equipped with state-of-the-art facilities and operates under a
                 laboratory management system that complies with ISO/IEC
                 17025:2017 standards. The lab is run by leading experts who have
