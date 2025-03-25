@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto p-4">
             {/* Left Image Section */}
             <div className="w-full">
-              <img
+              <Image
                 src="windmill.jpg"
                 alt="Wind turbines in a field"
                 className="shadow-lg w-full"
@@ -88,7 +89,7 @@ export default function Home() {
             </div>
 
             {/* Right Section */}
-            <img
+            <Image
               src="handshake.jpg"
               alt="Wind turbines in a field"
               className="shadow-lg w-full sm:w-2/5 h-auto"
@@ -96,7 +97,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto p-4 mt-15">
             {/* Left Section */}
-            <img
+            <Image
               src="nhieu-nguoi.jpg"
               alt="Wind turbines in a field"
               className="shadow-lg w-full sm:w-2/5 h-auto"
@@ -262,7 +263,7 @@ export default function Home() {
             <div className="relative flex w-full h-full">
               {/* Phần bên trái: Hình ảnh */}
               <div className="w-2/5 h-full flex items-center justify-center">
-                <img
+                <Image
                   src="man.png"
                   alt="Người đàn ông"
                   className="h-60 sm:h-96 w-auto"
@@ -302,18 +303,18 @@ export default function Home() {
             <p className="mt-6 text-gray-700">Or through the channels below:</p>
             <div className="mt-4 flex justify-center md:justify-start gap-6">
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />{" "}
+                <Image src="/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />{" "}
                 Whatsapp
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/kakao.png" alt="Kakao" className="w-6 h-6" /> Kakao
+                <Image src="/kakao.png" alt="Kakao" className="w-6 h-6" /> Kakao
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/wechat.png" alt="Wechat" className="w-6 h-6" />{" "}
+                <Image src="/wechat.png" alt="Wechat" className="w-6 h-6" />{" "}
                 Wechat
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/zalo.png" alt="Zalo" className="w-6 h-6" /> Zalo
+                <Image src="/zalo.png" alt="Zalo" className="w-6 h-6" /> Zalo
               </a>
             </div>
           </div>
@@ -321,7 +322,7 @@ export default function Home() {
           {/* Left: Image */}
           <div className="md:w-1/2 flex justify-center relative">
             <div className="relative z-10">
-              <img
+              <Image
                 src="/girl.png"
                 alt="Support"
                 className="h-[350px] md:h-[420px] w-auto"

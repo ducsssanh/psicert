@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 export default function Electric() {
   return (
@@ -42,7 +43,7 @@ export default function Electric() {
             <div className="text-base leading-relaxed">
               <div class="flex flex-row items-center mt-5">
                 <div class="w-1/2 flex justify-center">
-                  <img
+                  <Image
                     src="/pham-vi.jpg"
                     alt="Phạm vi"
                     class=" w-64 h-80 object-cover"
@@ -94,7 +95,7 @@ export default function Electric() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <div className="p-4 shadow-md rounded bg-[#f0eeee] text-left">
-              <img
+              <Image
                 src="/electric-1.jpg"
                 alt="Pin Lithium"
                 className="mx-auto h-64 mb-4"
@@ -108,7 +109,7 @@ export default function Electric() {
               </p>
             </div>
             <div className="p-4 shadow-md rounded bg-[#f0eeee] text-left">
-              <img
+              <Image
                 src="/electric-2.jpg"
                 alt="Pin/Ắc quy xe điện"
                 className="mx-auto h-64 mb-4"
@@ -123,7 +124,7 @@ export default function Electric() {
               </p>
             </div>
             <div className="p-4 shadow-md rounded bg-[#f0eeee] text-left">
-              <img
+              <Image
                 src="/electric-3.jpg"
                 alt="Pin/Ắc quy khác"
                 className="mx-auto h-64 mb-4"
@@ -145,7 +146,7 @@ export default function Electric() {
           {/* Right: Support Info */}
           <div className="md:w-1/2 flex justify-center relative">
             <div className="relative z-10">
-              <img
+              <Image
                 src="/electric-man.png"
                 alt="Support"
                 className="h-[350px] md:h-[420px] w-auto"
@@ -168,18 +169,18 @@ export default function Electric() {
             <p className="mt-6 text-gray-700">Or through the channels below:</p>
             <div className="mt-4 flex justify-center md:justify-start gap-6">
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />{" "}
+                <Image src="/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />{" "}
                 Whatsapp
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/kakao.png" alt="Kakao" className="w-6 h-6" /> Kakao
+                <Image src="/kakao.png" alt="Kakao" className="w-6 h-6" /> Kakao
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/wechat.png" alt="Wechat" className="w-6 h-6" />{" "}
+                <Image src="/wechat.png" alt="Wechat" className="w-6 h-6" />{" "}
                 Wechat
               </a>
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
-                <img src="/zalo.png" alt="Zalo" className="w-6 h-6" /> Zalo
+                <Image src="/zalo.png" alt="Zalo" className="w-6 h-6" /> Zalo
               </a>
             </div>
           </div>

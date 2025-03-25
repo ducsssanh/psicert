@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import "./globals.css";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -70,7 +71,7 @@ export default function Layout({ children }) {
                   href={isEnglish ? "/en" : "/"}
                   onClick={() => setMenuOpen(false)}
                 >
-                  <img
+                  <Image
                     src="/logo.png"
                     alt="PSI logo"
                     className="w-32 h-auto object-contain"
@@ -228,7 +229,7 @@ export default function Layout({ children }) {
         <footer className="relative bg-[#017baa] text-white py-10 px-6">
           <div className="container mx-auto w-full max-w-full flex flex-col">
             <div className="flex justify-center md:justify-start mb-6">
-              <img
+              <Image
                 src="/footer-logo.png"
                 alt="PSI Logo"
                 className="w-20 h-auto object-contain"
@@ -300,7 +301,7 @@ export default function Layout({ children }) {
                     : "Hoạt động của PSI được công nhận bởi"}
                 </p>
                 <div className="mt-2">
-                  <img
+                  <Image
                     src="/ilac-vaci-logo.png"
                     alt="ILAC-VACI Logo"
                     className="w-64 h-auto object-contain"
