@@ -20,8 +20,8 @@ export default function Home() {
       {/* Content Section */}
       <div className="relative flex-col mt-[13rem] px-4 lg:px-20 py-10">
         <div className="flex flex-col gap-6 translate-y-[-40px] mb-12">
-          <p className="text-xl">GIỚI THIỆU {">"} VỀ CHÚNG TÔI</p>
-          <h1 className="text-3xl font-bold mt-2">VỀ CHÚNG TÔI</h1>
+          <p className="text-xl">INTRODUCTION {">"} ABOUT US</p>
+          <h1 className="text-3xl font-bold mt-2">ABOUT US</h1>
         </div>
         <div className="flex-col lg:flex-row gap-4">
           <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto p-4">
@@ -37,25 +37,26 @@ export default function Home() {
             {/* Right Text Section */}
             <div className="w-full flex flex-col justify-center mt-10">
               <h1 className="text-2xl font-bold text-gray-800 mb-4">
-                Chào mừng bạn đến với PSI - Nơi cung cấp dịch vụ thử nghiệm và
-                tư vấn chứng nhận hàng đầu với giải pháp tối ưu nhất cho khách
-                hàng.
+                Welcome to PSI – a leading provider of testing and certification
+                consultancy services with the most optimal solutions for our
+                clients.
               </h1>
               <p className="text-gray-600 text-base mb-4">
-                Phòng Thử nghiệm Điện-Điện tử của công ty PSI được trang bị đầy
-                đủ các trang thiết bị hiện đại, áp dụng hệ thống quản lý phòng
-                thử nghiệm phù hợp với các chuẩn mực của ISO/IEC 17025:2017 và
-                được vận hành bởi các chuyên gia hàng đầu đã được đào tạo chuyên
-                sâu ở nước ngoài đồng thời có nhiều năm kinh nghiệm trong lĩnh
-                vực này.
+                PSI's Electrical-Electronics Testing Laboratory is fully
+                equipped with modern facilities, implementing a laboratory
+                management system in compliance with ISO/IEC 17025:2017
+                standards. It is operated by top experts who have undergone
+                advanced training abroad and have extensive experience in this
+                field.
               </p>
               <p className="text-gray-600 text-base">
-                Đến với PSI, Quý khách hàng hoàn toàn yên tâm bởi đội ngũ chuyên
-                gia của PSI đều được đào tạo chuyên sâu và bài bản bởi các tổ
-                chức uy tín tại nước ngoài và thường xuyên cập nhật kỹ thuật
-                công nghệ mới. Chúng tôi luôn sẵn sàng phục vụ Quý khách hàng
-                với tôn chỉ TIN CẬY - TẬN TÂM - CHUYÊN NGHIỆP nhằm mang đến chất
-                lượng dịch vụ xuất sắc tới khách hàng.
+                At PSI, you can be completely assured because our team of
+                experts is highly trained and professionally developed by
+                reputable international organizations. They consistently stay
+                updated with the latest technological advancements. We are
+                always ready to serve our clients with the guiding principles of
+                RELIABILITY – DEDICATION – PROFESSIONALISM, aiming to deliver
+                exceptional service quality to our customers.
               </p>
             </div>
           </div>
@@ -64,23 +65,24 @@ export default function Home() {
             <div className="w-full">
               <div className="w-full flex flex-col justify-center">
                 <h1 className="text-3xl font-bold text-gray-800 mb-4">
-                  VỀ CHÚNG TÔI
+                  ABOUT US
                 </h1>
                 <p className="text-gray-600 text-base mb-4">
-                  Phòng Thử nghiệm Điện-Điện tử của công ty PSI được trang bị
-                  đẩy đủ các trang thiết bị hiện đại, áp dụng hệ thống quản lý
-                  phòng thử nghiệm phù hợp với các chuẩn mực của ISO/IEC
-                  17025:2017 và được vận hành bởi các chuyên gia hàng đầu đã
-                  được đào tạo chuyên sâu ở nước ngoài đồng thời có nhiều năm
-                  kinh nghiệm trong lĩnh vực này.
+                  PSI's Electrical-Electronics Testing Laboratory is fully
+                  equipped with modern facilities, implementing a laboratory
+                  management system that meets the standards of ISO/IEC
+                  17025:2017. It is operated by leading experts who have
+                  undergone advanced training abroad and have years of
+                  experience in this field.
                 </p>
                 <p className="text-gray-600 text-base">
-                  Đến với PSI, Quý khách hàng hoàn toàn yên tâm bởi đội ngũ
-                  chuyên gia của PSI đều được đào tạo chuyên sâu và bài bản bởi
-                  các tổ chức uy tín tại nước ngoài và thường xuyên cập nhật kỹ
-                  thuật công nghệ mới. Chúng tôi luôn sẵn sàng phục vụ Quý khách
-                  hàng với tôn chỉ TIN CẬY - TẬN TÂM - CHUYÊN NGHIỆP nhằm mang
-                  đến chất lượng dịch vụ xuất sắc tới khách hàng.
+                  At PSI, clients can rest assured as our team of experts is
+                  professionally trained and developed by reputable
+                  international organizations. They regularly update their
+                  knowledge with the latest technological advancements. We are
+                  always ready to serve our clients with the principles of
+                  RELIABILITY – DEDICATION – PROFESSIONALISM, aiming to deliver
+                  exceptional service quality.
                 </p>
               </div>
             </div>
@@ -104,23 +106,25 @@ export default function Home() {
             <div className="w-full">
               <div className="w-full flex flex-col justify-center">
                 <h1 className="text-3xl font-bold text-gray-800 mb-4">
-                  LỊCH SỬ PHÁT TRIỂN
+                  DEVELOPMENT HISTORY
                 </h1>
                 <p className="text-gray-600 text-base mb-4">
-                  Phòng Thử nghiệm Điện-Điện tử của công ty PSI được trang bị
-                  đẩy đủ các trang thiết bị hiện đại, áp dụng hệ thống quản lý
-                  phòng thử nghiệm phù hợp với các chuẩn mực của ISO/IEC
-                  17025:2017 và được vận hành bởi các chuyên gia hàng đầu đã
-                  được đào tạo chuyên sâu ở nước ngoài đồng thời có nhiều năm
-                  kinh nghiệm trong lĩnh vực này.
+                  PSI's Electrical-Electronics Testing Laboratory is fully
+                  equipped with modern facilities, implementing a laboratory
+                  management system that adheres to the standards of ISO/IEC
+                  17025:2017. The lab is operated by leading experts who have
+                  undergone advanced training abroad and possess many years of
+                  experience in the field.
                 </p>
                 <p className="text-gray-600 text-base">
-                  Đến với PSI, Quý khách hàng hoàn toàn yên tâm bởi đội ngũ
-                  chuyên gia của PSI đều được đào tạo chuyên sâu và bài bản bởi
-                  các tổ chức uy tín tại nước ngoài và thường xuyên cập nhật kỹ
-                  thuật công nghệ mới. Chúng tôi luôn sẵn sàng phục vụ Quý khách
-                  hàng với tôn chỉ TIN CẬY - TẬN TÂM - CHUYÊN NGHIỆP nhằm mang
-                  đến chất lượng dịch vụ xuất sắc tới khách hàng.
+                  At PSI, clients can have complete peace of mind knowing that
+                  our team of experts is professionally trained and certified by
+                  reputable international organizations. They continuously
+                  update their skills with the latest technological
+                  advancements. We are always ready to serve our clients with
+                  the guiding principles of RELIABILITY – DEDICATION –
+                  PROFESSIONALISM, ensuring the delivery of exceptional service
+                  quality.
                 </p>
               </div>
             </div>
@@ -129,17 +133,18 @@ export default function Home() {
         <div className="flex flex-col items-center p-6 text-gray-800 max-w-4xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-8 w-full">
-            <h1 className="text-2xl font-bold">TẦM NHÌN - GIÁ TRỊ CỐT LÕI</h1>
+            <h1 className="text-2xl font-bold">VISION - CORE VALUES</h1>
             <p className="mt-4 text-xl bg-gray-200 p-4 shadow-md">
-              Với tầm nhìn trở thành đơn vị dẫn đầu trong lĩnh vực thử nghiệm
-              điện - điện tử tại Việt Nam, chúng tôi luôn nỗ lực vượt lên trên
-              kỳ vọng và trở thành đối tác tin cậy của khách hàng với tôn chỉ
-              <strong> TIN CẬY - TẬN TÂM - CHUYÊN NGHIỆP.</strong>
+              With the vision of becoming the leading entity in the field of
+              electrical-electronics testing in Vietnam, we continuously strive
+              to exceed expectations and become a trusted partner for our
+              clients, guided by the principles of
+              <strong> RELIABILITY – DEDICATION – PROFESSIONALISM</strong>
             </p>
           </div>
 
           {/* Values Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
+          <div className="grid grid-cols-2 gap-6 w-full">
             {/* Value 1 */}
             <div className="flex items-center gap-4 bg-blue-100 min-h-32 p-4 shadow-md">
               <div className="flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full">
@@ -158,7 +163,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="font-bold text-xl">Luôn làm điều đúng đắn</p>
+              <p className="font-bold text-xl">Always do the right thing</p>
             </div>
 
             {/* Value 2 */}
@@ -184,9 +189,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="font-bold text-xl">
-                Làm việc với tất cả sự tận tâm
-              </p>
+              <p className="font-bold text-xl">Work with complete dedication</p>
             </div>
 
             {/* Value 3 */}
@@ -208,7 +211,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="font-bold text-xl">
-                Không ngừng học hỏi và cải tiến
+                Continuously learn and improve
               </p>
             </div>
 
@@ -236,7 +239,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="font-bold text-xl">
-                Luôn hỗ trợ và cùng nhau phát triển
+                Always support and grow together
               </p>
             </div>
           </div>
@@ -270,8 +273,7 @@ export default function Home() {
               <div className="w-3/5 h-full flex items-center justify-center px-8 text-center">
                 <div>
                   <p className="text-xl font-bold text-gray-800 mb-2">
-                    "Cùng chung tay vì sự an toàn & phát triển chính là sứ mệnh
-                    của chúng tôi!"
+                    "Joining hands for safety and development is our mission!"
                   </p>
                 </div>
               </div>
@@ -286,10 +288,10 @@ export default function Home() {
           {/* Right: Support Info */}
           <div className="md:w-1/2 mt-6 md:mt-0 md:pr-10 text-left md:text-left">
             <h2 className="text-2xl font-bold text-[#0079a8]">
-              BẠN CẦN HỖ TRỢ?
+            NEED SUPPORT?
             </h2>
             <p className="mt-4 text-gray-700">
-              Hãy gọi cho chuyên gia của chúng tôi qua số hotline
+            Call our experts via the hotline
             </p>
             <a
               href="tel:+84866236288"
@@ -297,7 +299,7 @@ export default function Home() {
             >
               +84 866 236 288
             </a>
-            <p className="mt-6 text-gray-700">Hoặc qua các kênh bên dưới:</p>
+            <p className="mt-6 text-gray-700">Or through the channels below:</p>
             <div className="mt-4 flex justify-center md:justify-start gap-6">
               <a href="#" className="text-[#0079a8] flex items-center gap-2">
                 <img src="/whatsapp.png" alt="Whatsapp" className="w-6 h-6" />{" "}
